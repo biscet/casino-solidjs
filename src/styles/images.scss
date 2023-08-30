@@ -1,0 +1,37 @@
+.lock-svg {
+  margin-right: 5px;
+  cursor: pointer;
+
+  svg {
+    width: 30px;
+    height: 30px;
+
+    path {
+      fill: var(--green-400);
+    }
+  }
+
+  &:hover {
+    svg {
+      path {
+        fill: var(--green-500);
+      }
+    }
+  }
+
+  &_disable {
+    svg {
+      path {
+        fill: var(--green-200);
+      }
+    }
+
+    &:hover {
+      svg {
+        path {
+          fill: var(--green-200);
+        }
+      }
+    }
+  }
+}

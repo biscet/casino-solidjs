@@ -1,0 +1,56 @@
+.home-wrapper {
+  color: white;
+  padding: 10px;
+
+  &__balance-box {
+    display: flex;
+    align-items: center;
+  }
+
+  &__balance {
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  &__error {
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    text-shadow: 1px 1px 1px var(--brown-200);
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+  }
+
+  &__link {
+    color: black;
+    background: var(--green-400);
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid var(--green-400);
+
+    &:hover {
+      border-color: var(--brown-200);
+      color: var(--brown-200);
+    }
+  }
+
+  &__button {
+    color: black;
+    background: var(--green-400);
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 6px;
+    border: 1px solid var(--green-400);
+
+    &:hover {
+      border-color: var(--brown-200);
+      color: var(--brown-200);
+    }
+  }
+}
